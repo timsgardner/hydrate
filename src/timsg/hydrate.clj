@@ -7,7 +7,8 @@
             clojure.set)
   (:import [System.Reflection Assembly
             AssemblyName MemberInfo
-            PropertyInfo FieldInfo]
+            PropertyInfo FieldInfo
+            BindingFlags]
            [UnityEngine GameObject
             Transform Vector3
             Quaternion]))
